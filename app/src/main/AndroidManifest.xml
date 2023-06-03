@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ANAMENU"
+        tools:targetApi="31" >
+        <activity
+            android:name=".sk_activity_erythrai"
+            android:exported="false" />
+        <activity
+            android:name=".sk_LokmaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sk_EtliEkmekActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sk_BombaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UnKurabiyeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sk_DamlaSakizActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sk_LorluKurabiyeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sk_SamsedesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sk_SambaliActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sk_YanikMantiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sk_SutluDilActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sk_ZeytinyagliActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sk_BoyozActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sk_izmirKoftesiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sk_ErythraiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sk_kizilAvluActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sk_PergamonActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sk_EfesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sk_SmyrnaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sk_AgoraActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sk_izmirTarihYerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".izmirTraihActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sk_izmirTatliActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sk_izmirYemekActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sk_izmirTarihcesiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sk_MainActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

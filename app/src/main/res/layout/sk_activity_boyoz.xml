@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sk_BoyozActivity">
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="409dp"
+        android:layout_height="298dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.157"
+        app:srcCompat="@drawable/boyoz" />
+
+    <TextView
+        android:id="@+id/textView17"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:layout_marginBottom="303dp"
+        android:text="BOYOZ"
+        app:layout_constraintBottom_toTopOf="@+id/textView18"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="354dp"
+        android:layout_height="169dp"
+        android:layout_marginBottom="88dp"
+        android:text="Boyoz, 1492'de Türkiye'ye yerleşen Sefarad Yahudileri tarafından Anadolu ve özellikle İzmir mutfağına katılmış, İzmir damak tadı ile özdeşleşmiş, mayasız bir hamur işidir. İzmir Boyozu adıyla coğrafi işaret almıştır. Boyoz, İspanyolca yazılışıyla bollos, &quot;küçük somun&quot; anlamına gelen bollo sözcüğünün çoğuludur."
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.719"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView17" />
+</androidx.constraintlayout.widget.ConstraintLayout>

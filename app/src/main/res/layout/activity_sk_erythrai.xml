@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sk_activity_erythrai">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="418dp"
+        android:layout_height="269dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.155"
+        app:srcCompat="@drawable/ertythrai" />
+
+    <TextView
+        android:id="@+id/textView40"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_width="145dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="ERYTHRAİ"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="338dp"
+        android:layout_height="265dp"
+        android:text="Kent bağımsızlığına ancak MÖ 334 yılında Büyük İskender'in sayesinde kavuşabilmiştir. MÖ 280'de Galat akınlarıyla karşılaşmıştır. Daha sonra Bergama Krallığı'nın egemenliğine girmiş. Roma döneminde Asya eyaletinin gelişmiş kentlerinden biri olmuştur. Ancak bu dönemin sonlarına doğru önemini yitirmeye başlamıştır. 1366 yılında Türklerin kontrolüne giren bölgeye önceleri Erythre, Rhtyrai, Lythri gibi adlar verilmiş, fakat 16. yüzyıldan itibaren yöre İlderen ve Ildırı gibi adlarla anılmıştır."
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7"
+        app:layout_constraintVertical_bias="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

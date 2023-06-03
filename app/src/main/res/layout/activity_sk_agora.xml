@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sk_AgoraActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+
+        android:layout_width="414dp"
+        android:layout_height="302dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.13"
+        app:srcCompat="@drawable/agora" />
+
+    <TextView
+        android:id="@+id/textView2"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_width="141dp"
+        android:layout_height="38dp"
+        android:gravity="center"
+        android:text="AGORA"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.436"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.003" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="332dp"
+        android:layout_height="266dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="18dp"
+        android:text="İzmir Agorası veya Smyrna Agorası, günümüzde İzmir'in Konak ilçesinde bulunan ve MÖ 4. yüzyılda kurulan agoradır. Zamanında kentin devlet agorası olarak işlev gördü. MS 178'de meydana gelen depremin ardından Roma İmparatoru Marcus Aurelius'un desteğiyle yeniden inşa edildi.Osmanlı döneminde mezarlık ve namazgâh olarak kullanıldı. Bölgedeki ilk kazı çalışmaları 1932'de gerçekleştirildi. İzmir Agorası, 2020'de UNESCO tarafından &quot;İzmir Tarihî Liman Kenti&quot; adıyla dünya miras geçiçi listesine dahil oldu "
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.383"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.58" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sk_PergamonActivity">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="0dp"
+        android:layout_height="357dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pergamon" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:gravity="center"
+        android:text="PERGAMON"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView5" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="357dp"
+        android:layout_height="310dp"
+        android:text="Pergamon, eski çağlarda Misya bölgesinin önemli merkezlerinden biriydi. MÖ 282-133 arasında da Pergamon Krallığı'nın başkentiydi. Pergamon adı, bir söylence kahramanı olan Pergamos'tan gelir. Pergamos'un, Teuthrania kralını öldürdükten sonra kenti ele geçirdiği ve kendi adını verdiği sanılır.Yazılı belgelerde Pergamon'dan ilk kez MÖ 4. yüzyılın başlarında söz edilir. Kent daha sonra Pergamon Krallığı'nın başkenti oldu. Bu dönemde saray, tapınak, tiyatro gibi yapılarla yapıldı, kent kule ve surlarla çevrildi. Pergamon, İzmir'in kuzeyinde, Bakırçay (Kaikos) Vadisi'nde yer alır.Kent günümüzde denizden 30 km içerdedir ."
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView5"
+        app:layout_constraintVertical_bias="0.996" />
+</androidx.constraintlayout.widget.ConstraintLayout>

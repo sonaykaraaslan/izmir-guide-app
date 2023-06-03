@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sk_SambaliActivity">
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="414dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="61dp"
+        android:layout_marginBottom="22dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView29"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sambali" />
+
+    <TextView
+        android:id="@+id/textView27"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="112dp"
+        android:gravity="center"
+        android:text="ŞAMBALİ TATLISI"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="341dp"
+        android:layout_height="167dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginEnd="41dp"
+        android:text="Şambali revaniden yağ, un ve yumurtanın çıkarılması, Halep tatlısının yoğunluk ve kıtırlığının alınması ile birlikte Cumhuriyetin ilk yıllarında İzmir Kemeraltı çarşısında doğmuş. Yapanlar da Balkan göçmenleri. Sonraki yıllarda da yoğun Balkan göçü alan şehirde bu lezzetli ve maliyeti düşük tatlı sokaklara yayılmış."
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView27"
+        app:layout_constraintVertical_bias="0.777" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

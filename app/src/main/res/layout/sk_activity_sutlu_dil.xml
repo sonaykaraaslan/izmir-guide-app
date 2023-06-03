@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sk_SutluDilActivity">
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="389dp"
+        android:layout_height="293dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="13dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView25"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sutdili" />
+
+    <TextView
+        android:id="@+id/textView23"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_width="207dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="SÜTLÜ DİL BALIĞI"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="355dp"
+        android:layout_height="160dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginBottom="56dp"
+        android:text="Rivayete göre II. Abdülhamid, lüfer balığının yanağında bulunan eti çok sevdiği ve kendisi için özel hazırlanıp sunulduğu bilinmektedir. Sütle yapılan balık ve et yemeklerinin ayrı bir inceliğinin olduğu bilinmektedir. Osmanlı mutfağında pişirilmeden evvel ete nüfuz ettirilen süt, pişirilirken de kuş tüyü ile yeniden ete sürülürdü."
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView12" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

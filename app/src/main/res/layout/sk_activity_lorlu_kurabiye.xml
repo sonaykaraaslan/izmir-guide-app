@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sk_LorluKurabiyeActivity">
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="229dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView31"
+        app:srcCompat="@drawable/lor" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="165dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="31dp"
+        android:text="LOR KURABİYESİ"
+        android:gravity="center"
+        style="@style/TextAppearance.AppCompat.Title"
+        app:layout_constraintBottom_toTopOf="@+id/imageView15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="305dp"
+        android:layout_height="149dp"
+        android:layout_marginBottom="40dp"
+        android:text="Lor kurabiyesi lor peyniriden yapılan bir çeşit kurabiye veya bisküvidir.Lor peyniri dışında un, yumurta , ve şeker içerir.Basit lorlu kurabiye tarifi orijinal tarifiyle İzmir'e ait ve klasik kurabiyeden farklı olarak içerisine tuzsuz lor peyniri kullanılıyor."
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

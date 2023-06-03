@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sk_EfesActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="416dp"
+        android:layout_height="349dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="3dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/efes" />
+
+    <TextView
+        android:id="@+id/textView6"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:layout_marginBottom="279dp"
+        android:gravity="center"
+        android:text="EFES ANTİK KENTİ"
+        app:layout_constraintBottom_toTopOf="@+id/textView9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="361dp"
+        android:layout_height="311dp"
+        android:layout_marginBottom="23dp"
+        android:text="MÖ 1050 yıllarında Yunanistan'dan gelen göçmenlerin de yaşamaya başladığı liman kenti Efes, MÖ 560 yılında Artemis Tapınağı çevresine taşınmıştır. Bugün gezilen Efes ise Büyük İskender'in generallerinden Lisimahos tarafından MÖ 300 yıllarında kurulmuştur.Doğu ile Batı arasında başlıca kapı durumunda olan Efes önemli bir liman kenti idi. Bu konumu Efes'in çağının en önemli politik ve ticaret merkezi olarak gelişmesini ve Roma Devrinde Asia eyaletinin başkenti olmasını sağlamıştır.Efes, antik çağdaki önemini yalnızca buna borçlu değildir. Anadolu'nun eski anatanrıça (Kybele) geleneğine dayalı Artemis kültünün en büyük tapınağı da Efes'te yer alır."
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.609"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+</androidx.constraintlayout.widget.ConstraintLayout>
